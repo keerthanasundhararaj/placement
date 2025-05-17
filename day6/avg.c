@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+    int size,sum=0;
+    int arr[size];
+    for(int i=0;i<size;i++){
+        scanf("%d",&arr[i]){
+            sum+=arr[i];
+        }
+        int avg=sum/size;
+        printf("sum=%d\navg =%d",sum,avg);
+    }
+}
